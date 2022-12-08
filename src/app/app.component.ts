@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   saveFeature!: string;
 
-  onChange(element: string) {
+  onNavigate(element: string) {
     this.saveFeature = element;
   }
 }
